@@ -1,0 +1,71 @@
+.app{
+    height: 100vh;
+    widows: 100vw
+}
+
+.Grid{
+    
+    background: url(https://ak8.picdn.net/shutterstock/videos/2192218/thumb/1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
+    width: 70vw;
+    float: right;
+
+    
+    
+}
+
+.buttons{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    
+}
+
+.button{
+    background: url(https://maxcdn.icons8.com/Share/icon/Animals//dog1600.png);
+    height: 150px;
+    width: 150px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+
+    
+    
+}
+
+
+.side{
+    float:left;
+    height:  100vh;
+    width: 25.5vw;
+    background: black;
+    position: relative;
+    padding: 20px
+}
+
+.profilePic{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    background: red;
+     
+}
+
+.discription{
+    height: 200px;
+    width: 80%;
+    background: blue;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    margin-top: 160px;
+}
