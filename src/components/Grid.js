@@ -5,10 +5,11 @@ export default function Grid(props){
         <div className="Grid"> 
 
             <div className='buttons'>
-            <button className='button' onClick={() => props.showImage(0)}>basket</button>
-            <button className='button' onClick={() => props.showImage(1)}>show me a dog</button>
-            <button className='button' onClick={() => props.showImage(2)}>Puppy Love</button>
-            <button className='button' onClick={() => props.showImage(3)}>cute wrinkles</button>
+                {props.pic.map((v, i, arr) => {
+                    return <button className='button' onClick={() => props.showImage(i)}></button>
+                })}
+            
+           
             </div>
 
         </div>

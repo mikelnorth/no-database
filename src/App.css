@@ -4,8 +4,10 @@
 }
 
 .Grid{
-    
+    margin: 0;
+    padding: 0;
     background: url(https://ak8.picdn.net/shutterstock/videos/2192218/thumb/1.jpg);
+    background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
     height: 100vh;
@@ -17,32 +19,42 @@
 }
 
 .buttons{
+        margin-top: 100px;
         display: flex;
         flex-direction: row;
-        height: 100%;
-        width: 100%;
+        flex-wrap: wrap;
+        height: 60vh;
+        width: 70vw;
         justify-content: space-around;
         align-items: center;
+        overflow: scroll;
     
 }
 
 .button{
     background: url(https://maxcdn.icons8.com/Share/icon/Animals//dog1600.png);
-    height: 150px;
-    width: 150px;
+    height: 75px;
+    width: 75px;
     background-size: 100%;
     background-repeat: no-repeat;
-    display: flex;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+
 
     
     
 }
-
+.button:hover {
+background-color: rgba(255, 255, 255, 0.2) 
+}
 
 .side{
+    margin: 0;
+    padding: 0;
     float:left;
     height:  100vh;
-    width: 25.5vw;
+    width: 26vw;
     background: black;
     position: relative;
     padding: 20px
